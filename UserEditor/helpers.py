@@ -273,9 +273,3 @@ def get_app_stylesheet():
         height: 18px;
     }
     """
-
-
-class UserOperation(Enum):
-    """Enum to distinguish between create and edit operations"""
-    CREATE = auto()
-    EDIT = auto()
