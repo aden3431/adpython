@@ -14,7 +14,8 @@ from PyQt6.QtGui import QFont
 from ldap3 import Server, Connection, MODIFY_REPLACE, MODIFY_ADD, MODIFY_DELETE
 from ldap3.core.exceptions import LDAPException
 
-from .helpers import domain_to_base_dn, auto_generate_sam_account, encode_password, UserOperation
+from .helpers import domain_to_base_dn, auto_generate_sam_account, encode_password
+from . import UserOperation
 from .templates import TemplateManager, UserTemplate
 from .attributes_tab import AttributesTab
 from .groups_tab import GroupsTab
